@@ -1,9 +1,23 @@
-/**
- * @format
- */
+import React, { Component } from 'react';
+import {
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    Navigator,
+} from 'react-native';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export default class BaiTapReactNative extends Component {
+    render(){
+        return (
+            // <Navigator
+            //     initialRoute={{ name:'homePage' }}
+            //     renderScene={this.renderScene}
+            // />
+            <View>
+                WELCOME TO REACT NATIVE asdf
+            </View>
+        );
+    }
+}
+AppRegistry.registerComponent(BaiTapReactNative, () => BaiTapReactNative);
